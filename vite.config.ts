@@ -6,7 +6,7 @@ import { resolve } from 'path'
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/lib/main.tsx'),
+      entry: resolve(__dirname, 'lib/src/main.tsx'),
       name: 'Simulate-things',
       // the proper extensions will be added
       fileName: 'simulate-things'

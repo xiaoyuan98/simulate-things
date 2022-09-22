@@ -703,10 +703,10 @@ semver@^6.3.0:
   resolved "https://registry.npmmirror.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-simulate-things@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/simulate-things/-/simulate-things-0.0.2.tgz#086b32e3450aa2f1734f04683aee0975fdba0309"
-  integrity sha512-zI3mJvnNy1FzvDc82XbfnPfWSzEWznH8QOg4cSJQEpPevmYE47vzZYUWTHmCHzcLvrb53k1lg2LK756ARnsk9Q==
+simulate-things@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/simulate-things/-/simulate-things-0.0.3.tgz#1c290cd0e9ce84c748d88c05d42879a05e1c4b21"
+  integrity sha512-86KW16+ecAKPUXZLoF2bz7Jo2mSYMA+9NVCJZqS90EC73odpRw8VVE0VlQbZ65sSnxWZNl/0WkKX6iXEpIrIjw==
   dependencies:
     react "^18.2.0"
     react-dom "^18.2.0"
