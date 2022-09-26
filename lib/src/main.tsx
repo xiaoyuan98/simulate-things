@@ -1,6 +1,6 @@
-import React, {  useEffect }  from 'react'
-import Core from './utils/core'
-import ModelManager from './utils/modelManager'
+import {  useEffect }  from 'react'
+import Core from '@/core'
+import ModelManager from '@/modelManager'
 import './main.css'
 
 interface Props{
@@ -14,11 +14,9 @@ function SimulateThings(props:Props) {
     core.startAnimation()
 
     const modelManager = new ModelManager();
-    const models = modelManager.getModels();
+    const model = modelManager.getModelByMenu(modelManager.modelMenu[0]);
 
-    models.forEach(model => {
-      core.scene.add(model)
-    })
+    core.scene.add(model.mesh)
 
   },[])
 
