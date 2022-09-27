@@ -10,14 +10,11 @@ export default class People {
     this.mesh = this.initPeople();
   }
   private initPeople() {
-    return new THREE.Mesh(
-      new THREE.PlaneGeometry(1, 1, 1),
-      new THREE.MeshBasicMaterial({
-        color: 0x00ff00,
-        side: THREE.BackSide,
-        opacity: 0.5,
-      })
-    );
+    const geometry = new THREE.BoxGeometry(1, 1, 1);
+    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    const cube = new THREE.Mesh(geometry, material);
+    cube.position.set(0, 0, 0);
+    return cube;
   }
   run() {}
 }

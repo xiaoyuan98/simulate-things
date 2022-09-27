@@ -15,6 +15,7 @@ function SimulateThings(props:Props) {
 
     const modelManager = new ModelManager();
     const model = modelManager.getModelByMenu(modelManager.modelMenu[0]);
+    console.log(model);
 
     core.scene.add(model.mesh)
 
